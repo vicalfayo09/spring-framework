@@ -4,11 +4,11 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="specification" class="com.example.autowire.type.Specification">
+    <bean id="specification" class="com.example.autowire.constructor.Specification">
         <property name="make" value="Ford"/>
         <property name="model" value="Ranger"/>
     </bean>
 
-    <bean id="myCar" class="com.example.autowire.type.Car" autowire="byType"/>
+    <bean id="myCar" class="com.example.autowire.constructor.type.Car" autowire="constructor"/>
 
 </beans>
