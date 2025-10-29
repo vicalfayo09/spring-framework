@@ -1,6 +1,9 @@
 package com.example.autowire.type;
 
+//import org.springframework.beans.factory.annotation.Autowired;
+
 public class Car {
+    
     private Specification specification;
     
     public void setSpecification(Specification specification){
